@@ -224,6 +224,10 @@ nav ul li:hover .ddone {
     background: #fff;
     height: 150px;
 }
+#banner-snd .img img {
+    width: 100%;
+    height: 100%;
+}
 #banner-snd .feature1 {
     background: #34a853;
     padding: 20px;
@@ -373,8 +377,128 @@ box-shadow: 4px 4px 5px 0px rgba(68,68,68,1);
 .category_seven {
     margin-top: 50px !important;
 }
+.category_eight {
+    margin-top: 50px !important;
+}
+.category_eight .btn {
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+}
+.category_eight .btn a {
+    background: linear-gradient(#b1ffc6 35%, #34a853);
+    color: #023403;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 15px 30px;
+}
 /* ****************************************************************
                       category_one-part end
+***************************************************************** */
+/* ****************************************************************
+                      all_category-part starrt
+***************************************************************** */
+#all-section {
+    margin-top: 100px;
+}
+#all-section h1 {
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    background: #34a853;
+    margin: 0 40px;
+    color: #fff;
+    padding: 10px;
+}
+#all-section .all_one {
+    margin-top: 30px;
+    background:  rgb(235, 235, 91);
+    text-align: center;
+}
+#all-section .all_one h2 {
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(97, 49, 49);
+    margin-top: 15px;
+}
+#all-section .all_one h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(97, 49, 49);
+    margin-top: 10px;
+}
+#all-section .all_one p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color: #34a853;
+    text-transform: capitalize;
+    margin-top: 8px;
+}
+/* ****************************************************************
+                      all_category-part end
+***************************************************************** */
+/* ****************************************************************
+                      links-part start
+***************************************************************** */
+#links-part {
+    margin-top: 100px;
+}
+#links-part h1 {
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    background: #023403;
+    margin: 0 40px;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#links-part .first {
+    text-align: center;
+    background: #f0eaea;
+    padding: 12px;
+    margin-top: 50px;
+}
+#links-part .first h2 {
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(97, 49, 49);
+    margin-top: 15px;
+}
+#links-part .first ul {
+    margin-top: 20px;
+}
+#links-part .first ul li {
+    margin-top: 8px;
+}
+#links-part .first ul li a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(97, 49, 49);
+}
+/* ****************************************************************
+                      links-part end
+***************************************************************** */
+/* ****************************************************************
+                      footer-part start
+***************************************************************** */
+#footer-part {
+    background: rgb(170, 255, 170);
+    margin: 100px 40px 20px;
+}
+/* ****************************************************************
+                      footer-part end
 ***************************************************************** */
 
 
