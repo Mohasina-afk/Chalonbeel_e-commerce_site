@@ -77,4 +77,40 @@
         right: 15px;
         font-size: 30px;
     }
+    .category_eight {
+        display: none;
+    }
+    #footer-part{
+        margin: 100px 20px 20px;
+    }
+    #footer-part .footer-two{
+        margin-top: 40px;
+    }
+    #footer-part .footer-two .resicon{
+        width: 35%;
+    }
+    #footer-part .footer-two .restext{
+        width: 65%;
+    }
+    #footer-part .footer-three{
+        margin-top: 40px;
+    }
+    #footer-part .footer-three input{
+        width: 100%;
+        padding: 8px 10px;
+    }
+    #footer-part .footer-three button{
+        width: 100%;
+        padding: 10px 65px;
+    }
+    #footer-end{
+        margin: 50px 20px 0;
+    }
+    #footer-end p{
+        font-size: 13px;
+        text-align: center !important;
+    }
+    #footer-end .snd{
+        text-align: center !important;
+    }
 }
