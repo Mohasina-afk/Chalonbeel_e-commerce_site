@@ -3,14 +3,7 @@ $(".navbar").hide();
 
 $(".bar").click(function(){
     $(".navbar").fadeToggle();
-}); 
-
-// var hoverOrClick = function (){
-//     $(".ddone").fadeToggle()
-// }
-
-// $(".subMenuBtn").click(hoverOrClick).hover(hoverOrClick);
-
+});
 
 
 //banner js @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@

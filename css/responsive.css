@@ -1,0 +1,21 @@
+@media (min-width:320px) and (max-width:575px) {
+    header .text {
+        font-size: 14px;
+    }
+    #menubar .col-lg-1.resbar {
+        width: 25% !important;
+    }
+    #menubar .form input{
+        padding-right: 0px;
+        font-size: small;
+    }
+    .list ul{
+        width: 87%;
+    }
+    .list ul li{
+        margin-left: 23px;
+    }
+    .list ul li a::after{
+        right: -15px;
+    }
+}
