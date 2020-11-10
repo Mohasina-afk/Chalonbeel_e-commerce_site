@@ -71,6 +71,9 @@ header .text {
     margin-top: -7px;
     font-size: 12px;
 }
+#menubar .udhaoIcon {
+    display: none;
+}
 #menubar .sidebar {
     display: flex;
 }

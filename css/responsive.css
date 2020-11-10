@@ -2,12 +2,43 @@
     header .text {
         font-size: 14px;
     }
-    #menubar .col-lg-1.resbar {
-        width: 25% !important;
+    #menubar .resrow {
+        width: 100%;
+        margin-left: 0;
+    }
+    #menubar .resbar {
+        width: 13% !important;
+        padding: 0;
+    }
+    #menubar .bar {
+        font-size: 25px;
+        padding: 4px 0;
+    }
+    #menubar .resform {
+        width: 74% !important;
+        padding: 0 5px;
+    }
+    #menubar .ressidebar {
+        width: 13% !important;
+        padding: 0;
     }
     #menubar .form input{
         padding-right: 0px;
         font-size: small;
+    }
+    #menubar .udhaoIcon {
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        line-height: 1.1;
+    }
+    #menubar .sidebar{
+        display: block;
+        width: 400%;
+        margin-left: -470%;
+    }
+    #menubar .sidebar .one {
+        margin-top: 5px;
     }
     .list ul{
         width: 87%;
@@ -17,5 +48,33 @@
     }
     .list ul li a::after{
         right: -15px;
+    }
+    #menubar .bar .navbar{
+        top: 100%;
+    }
+    nav ul li{
+        padding: 15px 5px;
+    }
+    nav ul li a{
+        font-size: 13px;
+    }
+    nav ul li a i {
+        margin-left: 20px;
+        font-size: 10px;
+    }
+    nav ul li .ddone{
+        top: 8px;
+        left: 53%;
+        width: 100px;
+    }
+    #banner-part .prev{
+        top: 44%;
+        left: 15px;
+        font-size: 30px;
+    }
+    #banner-part .next{
+        bottom: 51%;
+        right: 15px;
+        font-size: 30px;
     }
 }

@@ -1,8 +1,13 @@
 $(".navbar").hide();
-
-
 $(".bar").click(function(){
     $(".navbar").fadeToggle();
+});
+
+
+
+$(".sidebar").hide();
+$(".udhaoIcon").click(function(){
+    $(".sidebar").fadeToggle();
 });
 
 
