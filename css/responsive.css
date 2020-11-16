@@ -22,7 +22,10 @@
         width: 13% !important;
         padding: 0;
     }
-    #menubar .form input{
+    #menubar .form{
+        margin-left: 5px !important;
+    }
+    #menubar .form input {
         padding-right: 0px;
         font-size: small;
     }
@@ -31,86 +34,456 @@
         font-size: 30px;
         color: #fff;
         line-height: 1.1;
+        position: relative;
     }
-    #menubar .sidebar{
-        display: block;
+    #menubar .sidebar {
+        position: absolute;
+        top: 35px;
+        right: -40%;
         width: 400%;
-        margin-left: -470%;
+        display: block !important;
+        z-index: 9999;
+    }
+    .show-hide{
+        display: none;
     }
     #menubar .sidebar .one {
         margin-top: 5px;
     }
-    .list ul{
+    .list ul {
         width: 87%;
     }
-    .list ul li{
+    .list ul li {
         margin-left: 23px;
     }
-    .list ul li a::after{
+    .list ul li a::after {
         right: -15px;
     }
-    #menubar .bar .navbar{
+    #menubar .bar .navbar {
         top: 100%;
     }
-    nav ul li{
+    nav ul li {
         padding: 15px 5px;
     }
-    nav ul li a{
+    nav ul li a {
         font-size: 13px;
     }
     nav ul li a i {
         margin-left: 20px;
         font-size: 10px;
     }
-    nav ul li .ddone{
+    nav ul li .ddone {
         top: 8px;
         left: 53%;
         width: 100px;
     }
-    #banner-part .prev{
+    #banner-part .prev {
         top: 44%;
         left: 15px;
         font-size: 30px;
     }
-    #banner-part .next{
+    #banner-part .next {
         bottom: 51%;
         right: 15px;
         font-size: 30px;
     }
+    #banner-snd .prev {
+        top: 355px;
+        left: 125px;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+    }
+    #banner-snd .next {
+        bottom: -45px;
+        right: 125px;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+    }
+    #category_one .prev {
+        position: absolute;
+        top: 442px;
+        left: 40%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+        color: #023403;
+        z-index: 999;
+    }
+    #category_one .next {
+        position: absolute;
+        bottom: -50px;
+        right: 40%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+        color: #023403;
+    }
+    .category_two {
+        margin-top: 100px !important;
+    }
+    .category_three {
+        margin-top: 100px !important;
+    }
+    .category_four {
+        margin-top: 100px !important;
+    }
+    .category_five {
+        margin-top: 100px !important;
+    }
+    .category_six {
+        margin-top: 100px !important;
+    }
+    .category_seven {
+        margin-top: 100px !important;
+    }
+    .full_cate_btn {
+        margin-top: 100px;
+    }
     .category_eight {
         display: none;
     }
-    #footer-part{
+    #footer-part {
         margin: 100px 20px 20px;
     }
-    #footer-part .footer-two{
+    #footer-part .footer-two {
         margin-top: 40px;
     }
-    #footer-part .footer-two .resicon{
+    #footer-part .footer-two .resicon {
         width: 35%;
     }
-    #footer-part .footer-two .restext{
+    #footer-part .footer-two .restext {
         width: 65%;
     }
-    #footer-part .footer-three{
+    #footer-part .footer-three {
         margin-top: 40px;
     }
-    #footer-part .footer-three input{
+    #footer-part .footer-three input {
         width: 100%;
         padding: 8px 10px;
     }
-    #footer-part .footer-three button{
+    #footer-part .footer-three button {
         width: 100%;
         padding: 10px 65px;
     }
-    #footer-end{
+    #footer-end {
         margin: 50px 20px 0;
     }
-    #footer-end p{
+    #footer-end p {
         font-size: 13px;
         text-align: center !important;
     }
-    #footer-end .snd{
+    #footer-end .snd {
         text-align: center !important;
+    }
+}
+
+
+@media (min-width:576px) and (max-width:767px) {
+    #menubar .resrow {
+        width: 100%;
+        margin-left: 0;
+    }  
+    #menubar .resbar {
+        width: 13% !important;
+        padding: 0;
+    }
+    #menubar .bar {
+        font-size: 25px;
+        padding: 4px 0;
+    }
+    #menubar .resform {
+        width: 74% !important;
+        padding: 0 5px;
+    }
+    #menubar .ressidebar {
+        width: 13% !important;
+        padding: 0;
+    }
+    #menubar .form{
+        margin-left: 5px !important;
+    }
+    #menubar .form input {
+        font-size: small;
+    }
+    #menubar .udhaoIcon {
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        line-height: 1.1;
+        position: relative;
+    }
+    #menubar .sidebar {
+        position: absolute;
+        top: 40px;
+        right: -40%;
+        width: 400%;
+        display: block !important;
+        z-index: 9999;
+    }
+    .show-hide{
+        display: none;
+    }
+    #menubar .sidebar .one {
+        margin-top: 5px;
+    }
+    .show-hide{
+        display: none;
+    }
+    #banner-part .prev {
+        top: 44%;
+        left: 15px;
+        font-size: 30px;
+    }
+    #banner-part .next {
+        bottom: 51%;
+        right: 15px;
+        font-size: 30px;
+    }
+    #banner-snd .prev {
+        top: 355px;
+        left: 43%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+    }
+    #banner-snd .next {
+        bottom: -45px;
+        right: 43%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+    }
+    #category_one .prev {
+        position: absolute;
+        top: 443px;
+        left: 43%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+        color: #023403;
+        z-index: 999;
+    }
+    #category_one .next {
+        position: absolute;
+        bottom: -50px;
+        right: 43%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+        color: #023403;
+    }
+    .category_two {
+        margin-top: 100px !important;
+    }
+    .category_three {
+        margin-top: 100px !important;
+    }
+    .category_four {
+        margin-top: 100px !important;
+    }
+    .category_five {
+        margin-top: 100px !important;
+    }
+    .category_six {
+        margin-top: 100px !important;
+    }
+    .category_seven {
+        margin-top: 100px !important;
+    }
+    .full_cate_btn {
+        margin-top: 100px;
+    }
+    .category_eight {
+        display: none;
+    }
+    #links-part .first ul li a{
+        font-size: 15px;
+    }
+    #footer-part .footer-two {
+        margin-top: 40px;
+    }
+    #footer-part .footer-two .resicon {
+        width: 43%;
+    }
+    #footer-part .footer-two .restext {
+        width: 57%;
+    }
+    #footer-part .footer-three {
+        margin-top: 40px;
+    }
+    #footer-part .footer-three input {
+        width: 70%;
+        padding: 10px 20px;
+    }
+    #footer-part .footer-three button {
+        width: 70%;
+        padding: 10px 65px;
+    }
+    #footer-end p {
+        font-size: 13px;
+        text-align: center !important;
+    }
+    #footer-end .snd {
+        text-align: center !important;
+    }
+}
+
+
+@media (min-width:768px) and (max-width:991px) {
+    #menubar .resrow {
+        width: 100%;
+        margin-left: 0;
+    }  
+    #menubar .resbar {
+        width: 13% !important;
+        padding: 0;
+    }
+    #menubar .bar {
+        font-size: 25px;
+        padding: 4px 0;
+    }
+    #menubar .resform {
+        width: 74% !important;
+        padding: 0 5px;
+    }
+    #menubar .ressidebar {
+        width: 13% !important;
+        padding: 0;
+    }
+    #menubar .form input {
+        font-size: small;
+        padding-right: 0;
+    }
+    #menubar .form{
+        margin-left: 5px !important;
+    }
+    #menubar .udhaoIcon {
+        display: none;
+    }
+    #menubar .one{
+        margin-right: 5px;
+        padding: 0 10px;
+    }
+    #banner-part .prev {
+        top: 44%;
+        left: 40px;
+        font-size: 40px;
+    }
+    #banner-part .next {
+        bottom: 49%;
+        right: 40px;
+        font-size: 40px;
+    }
+    #banner-snd .prev {
+        top: 354px;
+        left: 45%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+    }
+    #banner-snd .next {
+        bottom: -65px;
+        right: 45%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+    }
+    #category_one .prev {
+        position: absolute;
+        top: 443px;
+        left: 45%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+        color: #023403;
+        z-index: 999;
+    }
+    #category_one .next {
+        position: absolute;
+        bottom: -50px;
+        right: 45%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+        color: #023403;
+    }
+    .category_two {
+        margin-top: 100px !important;
+    }
+    .category_three {
+        margin-top: 100px !important;
+    }
+    .category_four {
+        margin-top: 100px !important;
+    }
+    .category_five {
+        margin-top: 100px !important;
+    }
+    .category_six {
+        margin-top: 100px !important;
+    }
+    .category_seven {
+        margin-top: 100px !important;
+    }
+    .full_cate_btn {
+        margin-top: 100px;
+    }
+    .category_eight {
+        display: none;
+    }
+    #links-part .first ul li a{
+        font-size: 15px;
+    }
+    #footer-part .footer-two {
+        margin-top: 40px;
+    }
+    #footer-part .footer-two .resicon {
+        width: 43%;
+    }
+    #footer-part .footer-two .restext {
+        width: 57%;
+    }
+    #footer-part .footer-three {
+        margin-top: 40px;
+    }
+    #footer-part .footer-three input {
+        width: 60%;
+        padding: 10px 20px;
+    }
+    #footer-part .footer-three button {
+        width: 60%;
+        padding: 10px 65px;
+    }
+    #footer-end p{
+        font-size: 12px;
+    }
+}
+
+
+@media (min-width:992px) and (max-width:1199px) {
+    #menubar .form input{
+        padding-right: 120px;
+    }
+    #menubar .sidebar{
+        margin-left: -15px;
+    }
+    #menubar .one{
+        margin-right: 13px;
+    }
+    #banner-snd .prev {
+        top: 355px;
+        left: 46%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
+    }
+    #banner-snd .next {
+        bottom: -45px;
+        right: 46%;
+        font-size: 20px;
+        border: 1px solid #023403;
+        padding: 5px;
     }
 }

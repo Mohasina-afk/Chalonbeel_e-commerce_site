@@ -43,11 +43,12 @@ header .text {
 } 
 #menubar .bar {
     color: #fff;
-    font-size: 35px;
+    font-size: 23px;
     line-height: 0;
     border: 1px solid #fff;
     text-align: center;
     position: relative;
+    padding: 5px 0;
 }
 #menubar .form input {
     border: 0;
@@ -57,6 +58,7 @@ header .text {
 }
 #menubar .form {
     display: flex;
+    margin-left: -15px;
 }
 #menubar .form .icon {
     text-align: center;
@@ -75,7 +77,8 @@ header .text {
     display: none;
 }
 #menubar .sidebar {
-    display: flex;
+    display: flex !important;
+    /* flex-wrap: wrap; */
 }
 #menubar .one {
     background: #fff;
@@ -181,9 +184,6 @@ nav ul li:hover .ddone {
 /* ****************************************************************
                       banner-part start
 ***************************************************************** */
-#banner-part {
-    position: relative;
-}
 #banner-part .banner1{
     background: #76dd92;
     height: 600px;
@@ -219,9 +219,7 @@ nav ul li:hover .ddone {
                       banner-snd-part start
 ***************************************************************** */
 #banner-snd {
-    position: absolute;
-    bottom: -45%;
-    left: 8%;
+    margin-top: -165px;
 }
 #banner-snd .img {
     background: #fff;
@@ -278,7 +276,7 @@ box-shadow: 4px 4px 5px 0px rgba(68,68,68,1);
 }
 #banner-snd .next {
     position: absolute;
-    bottom: 43%;
+    bottom: 43.3%;
     right: -55px;
     color: #023403;
     font-size: 40px;
@@ -290,7 +288,7 @@ box-shadow: 4px 4px 5px 0px rgba(68,68,68,1);
                       category_one-part start
 ***************************************************************** */
 #category_one {
-    margin-top: 250px;
+    margin-top: 100px;
 }
 #category_one h1 {
     text-transform: capitalize;
@@ -383,12 +381,12 @@ box-shadow: 4px 4px 5px 0px rgba(68,68,68,1);
 .category_eight {
     margin-top: 50px !important;
 }
-.category_eight .btn {
+.full_cate_btn {
     text-align: center;
     display: block;
     margin-top: 50px;
 }
-.category_eight .btn a {
+.full_cate_btn a {
     background: linear-gradient(#b1ffc6 35%, #34a853);
     color: #023403;
     font-family: 'Montserrat', sans-serif;
@@ -401,7 +399,7 @@ box-shadow: 4px 4px 5px 0px rgba(68,68,68,1);
                       category_one-part end
 ***************************************************************** */
 /* ****************************************************************
-                      all_category-part starrt
+                      all_category-part start
 ***************************************************************** */
 #all-section {
     margin-top: 100px;
